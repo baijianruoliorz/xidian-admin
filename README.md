@@ -8,8 +8,10 @@
 
 项目成员:
 
+指导老师: wm csj
+
 组长:yxr
 
 成员:czr wyn ljm whj cjz
 
-指导老师: wm csj
+
