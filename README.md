@@ -1,6 +1,4 @@
-@copyright 2020 Xidian university
-
-
+##Xidian-admin
 参与学校信息化建设的 运维平台项目.
 
 目标:
@@ -14,4 +12,4 @@
 
 成员:czr wyn ljm whj cjz
 
-
+@copyright 2020 Xidian university
