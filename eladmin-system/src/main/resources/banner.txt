@@ -1,8 +1,33 @@
-       _                 _           _
-      | |               | |         (_)
-   ___| |______ __ _  __| |_ __ ___  _ _ __
-  / _ | |______/ _` |/ _` | '_ ` _ \| | '_ \
- |  __| |     | (_| | (_| | | | | | | | | | |
-  \___|_|      \__,_|\__,_|_| |_| |_|_|_| |_|
-
- :: Spring Boot ::       (v2.1.0.RELEASE)
+${AnsiColor.BRIGHT_BLUE}
+////////////////////////////////////////////////////////////////////
+${AnsiColor.BRIGHT_YELLOW}                                                                   /
+ Author:liqiqiorz  QQ:1099462011  MySite:https://yangxiangrui.site /
+ GitHub:https://github.com/baijianruoliorz                         /
+ ${AnsiColor.BRIGHT_BLUE}                                                                  /
+    \__  |   |\   \/  /\______   \                                 /
+     /   |   | \     /  |       _/                                 /
+     \____   | /     \  |    |   \                                 /
+     / ______|/___/\  \ |____|_  /                                 /
+     \/             \_/        \/                                  /
+                                                                   /
+    く__,.ヘヽ.        /  ,ー､ 〉                                   /
+           ＼ ', !-─‐-i  /  /´                                     /
+           ／｀ｰ'       L/／｀ヽ､                                   /
+         /   ／,   /|   ,   ,       ',                             /
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i                                /
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |                                  /
+          !,/7 '0'     ´0iソ|    |                                 /
+          |.从"    _     ,,,, / |./    |                           /
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |                          /
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |                             /
+              | |/i 〈|/   i  ,.ﾍ |  i  |                          /
+             .|/ /  ｉ：    ﾍ!    ＼  |                            /
+              kヽ>､ﾊ    _,.ﾍ､    /､!                               /
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'                             /
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ                               /
+                  ﾄ-,/  |___./                                     /
+                  'ｰ'    !_,.:                                     /
+////////////////////////////////////////////////////////////////////
+${AnsiColor.BRIGHT_YELLOW}
+Application Version: ${application.version}${application.formatted-version}
+Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}
