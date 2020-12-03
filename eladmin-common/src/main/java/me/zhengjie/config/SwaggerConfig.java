@@ -28,6 +28,7 @@ import org.springframework.data.domain.Pageable;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.ParameterBuilder;
 import springfox.documentation.builders.PathSelectors;
+import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.schema.AlternateTypeRule;
 import springfox.documentation.schema.AlternateTypeRuleConvention;
 import springfox.documentation.schema.ModelRef;
@@ -80,10 +81,31 @@ public class SwaggerConfig {
                 .globalOperationParameters(pars);
     }
 
+    //swagger插件
+    @Bean
+    public Docket webApiConfig() {
+        //这行代码表示类型是swagger
+        return new Docket(DocumentationType.SWAGGER_2)
+                .groupName("webApi")
+                //引入下面的APIinfo方法
+//                就是一些描述
+                .apiInfo(apiInfo())
+//                配置扫描路径 不然全部扫描
+                .select()
+//                指定扫描的包 new
+                .apis(RequestHandlerSelectors.basePackage("com.wizz.gift.controller"))
+                //not表示没有，即接口路径中包含admin和error就不进行显示了  先注释掉，因为如果包含admin,就不会显示，而acl正好包含admin
+                //.paths(Predicates.not(PathSelectors.regex("/admin/.*")))
+//                这个是过滤什么路径
+                .paths(Predicates.not(PathSelectors.regex("/error.*")))
+                .build();
+
+    }
+
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .description("一个简单且易上手的 Spring boot 后台管理框架")
-                .title("EL-ADMIN 接口文档")
+                .description("西电运维平台的接口文档")
+                .title("XD-ADMIN接口文档")
                 .version("2.4")
                 .build();
     }

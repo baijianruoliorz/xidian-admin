@@ -132,7 +132,13 @@
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
-
+        <!--   swagger增强-->
+        <!-- 解析客户端操作系统、浏览器信息 -->
+        <dependency>
+            <groupId>eu.bitwalker</groupId>
+            <artifactId>UserAgentUtils</artifactId>
+            <version>1.21</version>
+        </dependency>
         <!-- druid数据源驱动 -->
         <dependency>
             <groupId>com.alibaba</groupId>

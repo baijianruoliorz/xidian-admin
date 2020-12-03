@@ -65,6 +65,17 @@ public class LogServiceImpl implements LogService {
         return page;
     }
 
+
+
+    public Object queryAll2(LogQueryCriteria criteria,Pageable pageable){
+        Page<Log> page=logRepository.findAll(((root,criteriaQuery,cb)->QueryHelp.getPredicate(root,criteria,cb)),pageable);
+        String status ="ERROR";
+        if (status.equals(criteria.getLogType())){
+            return PageUtil.toPage(page.map(logErrorMapper::toDto));
+        }
+        return page;
+    }
+
     @Override
     public List<Log> queryAll(LogQueryCriteria criteria) {
         return logRepository.findAll(((root, criteriaQuery, cb) -> QueryHelp.getPredicate(root, criteria, cb)));
@@ -140,6 +151,8 @@ public class LogServiceImpl implements LogService {
         return Dict.create().set("exception", new String(ObjectUtil.isNotNull(details) ? details : "".getBytes()));
     }
 
+
+
     @Override
     public void download(List<Log> logs, HttpServletResponse response) throws IOException {
         List<Map<String, Object>> list = new ArrayList<>();
@@ -158,11 +171,14 @@ public class LogServiceImpl implements LogService {
         FileUtil.downloadExcel(list, response);
     }
 
+
     @Override
     @Transactional(rollbackFor = Exception.class)
     public void delAllByError() {
         logRepository.deleteByLogType("ERROR");
     }
+
+
 
     @Override
     @Transactional(rollbackFor = Exception.class)
