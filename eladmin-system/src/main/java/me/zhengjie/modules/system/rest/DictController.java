@@ -33,6 +33,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Set;
 
+import  org.springframework.http.HttpStatus;
+
+import static org.springframework.http.HttpStatus.NO_CONTENT;
+
 /**
 * @author Zheng Jie
 * @date 2019-04-10
@@ -85,7 +89,7 @@ public class DictController {
     @PreAuthorize("@el.check('dict:edit')")
     public ResponseEntity<Object> update(@Validated(Dict.Update.class) @RequestBody Dict resources){
         dictService.update(resources);
-        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        return new ResponseEntity<>(NO_CONTENT);
     }
 
     @Log("删除字典")
