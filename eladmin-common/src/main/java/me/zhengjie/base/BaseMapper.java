@@ -18,8 +18,8 @@ package me.zhengjie.base;
 import java.util.List;
 
 /**
- * @author Zheng Jie
- * @date 2018-11-23
+ * @author YangXiangrui
+ * @date 2020-11-23
  */
 public interface BaseMapper<D, E> {
 
