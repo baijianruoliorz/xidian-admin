@@ -26,8 +26,8 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * @author Zheng Jie
- * @date 2018-11-24
+ * @author CaiZirui
+ * @date 2020-12-01
  */
 public interface LogService {
 

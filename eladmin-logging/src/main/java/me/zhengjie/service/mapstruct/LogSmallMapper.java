@@ -22,8 +22,8 @@ import org.mapstruct.Mapper;
 import org.mapstruct.ReportingPolicy;
 
 /**
- * @author Zheng Jie
- * @date 2019-5-22
+ * @author CaiZirui
+ * @date 2020-02-11
  */
 @Mapper(componentModel = "spring",unmappedTargetPolicy = ReportingPolicy.IGNORE)
 public interface LogSmallMapper extends BaseMapper<LogSmallDTO, Log> {
