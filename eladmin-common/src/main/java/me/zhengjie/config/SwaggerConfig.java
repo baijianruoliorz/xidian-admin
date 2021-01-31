@@ -44,8 +44,8 @@ import static springfox.documentation.schema.AlternateTypeRules.newRule;
 
 /**
  * api页面 /doc.html
- * @author Zheng Jie
- * @date 2018-11-23
+ * @author YangXiangrui
+ * @date 2020-11-23
  */
 @Configuration
 @EnableSwagger2
