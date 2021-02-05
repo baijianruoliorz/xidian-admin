@@ -27,8 +27,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 /**
  * WebMvcConfigurer
  *
- * @author Zheng Jie
- * @date 2018-11-30
+ * @author Yang Xiangrui
+ * @date 2020-11-30
  */
 @Configuration
 @EnableWebMvc
