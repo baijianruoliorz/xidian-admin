@@ -46,6 +46,7 @@ public class App extends BaseEntity implements Serializable {
 	@ApiModelProperty(value = "端口")
 	private int port;
 
+
 	@ApiModelProperty(value = "上传路径")
 	private String uploadPath;
 
