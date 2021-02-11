@@ -25,8 +25,8 @@ import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
 /**
- * @author Zheng Jie
- * @date 2019-01-07
+ * @author YangXiangrui
+ * @date 2020-11-01
  */
 @Getter
 @Setter

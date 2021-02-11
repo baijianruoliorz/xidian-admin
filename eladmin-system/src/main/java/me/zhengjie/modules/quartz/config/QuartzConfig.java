@@ -26,8 +26,8 @@ import org.springframework.stereotype.Component;
 
 /**
  * 定时任务配置
- * @author /
- * @date 2019-01-07
+ * @author /CZR
+ * @date 2020-10-11
  */
 @Configuration
 public class QuartzConfig {

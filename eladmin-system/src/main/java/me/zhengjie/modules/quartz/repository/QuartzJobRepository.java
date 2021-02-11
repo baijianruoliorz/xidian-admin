@@ -21,8 +21,8 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import java.util.List;
 
 /**
- * @author Zheng Jie
- * @date 2019-01-07
+ * @author Yang Xiangrui
+ * @date 2020-10-13
  */
 public interface QuartzJobRepository extends JpaRepository<QuartzJob,Long>, JpaSpecificationExecutor<QuartzJob> {
 
