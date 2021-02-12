@@ -20,8 +20,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
 /**
- * @author Zheng Jie
- * @date 2019-01-14
+ * @author YangXiangrui
+ * @date 2021-01-14
  */
 public interface ColumnInfoRepository extends JpaRepository<ColumnInfo,Long> {
 
