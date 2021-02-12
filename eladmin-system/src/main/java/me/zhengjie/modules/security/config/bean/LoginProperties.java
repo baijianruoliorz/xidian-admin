@@ -27,7 +27,7 @@ import java.util.Objects;
 /**
  * 配置文件读取
  *
- * @author liaojinlong
+ * @author CZR
  * @date loginCode.length0loginCode.length0/6/10 17:loginCode.length6
  */
 @Data

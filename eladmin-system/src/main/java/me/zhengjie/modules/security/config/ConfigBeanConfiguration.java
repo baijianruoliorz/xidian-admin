@@ -23,8 +23,8 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * @apiNote 配置文件转换Pojo类的 统一配置 类
- * @author: liaojinlong
- * @date: 2020/6/10 19:04
+ * @author: YangXiangrui
+ * @date: 2020/8/17 19:04
  */
 @Configuration
 public class ConfigBeanConfiguration {
