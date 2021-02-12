@@ -168,7 +168,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                         break;
                     case DELETE:
                         delete.addAll(infoEntry.getKey().getPatternsCondition().getPatterns());
-                        break;@GeneratedValue
+                        break;
                     default:
                         all.addAll(infoEntry.getKey().getPatternsCondition().getPatterns());
                         break;
