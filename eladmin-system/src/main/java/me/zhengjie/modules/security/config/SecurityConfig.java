@@ -41,6 +41,7 @@ import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.mvc.method.RequestMappingInfo;
 import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping;
 
+import javax.persistence.GeneratedValue;
 import java.util.*;
 
 /**
@@ -167,7 +168,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                         break;
                     case DELETE:
                         delete.addAll(infoEntry.getKey().getPatternsCondition().getPatterns());
-                        break;
+                        break;@GeneratedValue
                     default:
                         all.addAll(infoEntry.getKey().getPatternsCondition().getPatterns());
                         break;
