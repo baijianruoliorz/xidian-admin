@@ -20,8 +20,8 @@ import me.zhengjie.utils.StringUtils;
 import org.springframework.stereotype.Component;
 
 /**
- * @author: liaojinlong
- * @date: 2020/6/11 18:01
+ * @author: YangXiangrui
+ * @date: 2020/12/11 18:01
  * @apiNote: 用于清理 用户登录信息缓存，为防止Spring循环依赖与安全考虑 ，单独构成工具类
  */
 @Component

@@ -68,6 +68,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
                 // SpringSecurity会自动转换UsernameNotFoundException为BadCredentialsException
                 throw new UsernameNotFoundException("", e);
             }
+
             if (user == null) {
                 throw new UsernameNotFoundException("");
             } else {
