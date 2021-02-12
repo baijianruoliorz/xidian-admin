@@ -36,9 +36,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 发送邮件
- * @author 郑杰
- * @date 2018/09/28 6:55:53
+ * 七牛云存储
+ * @author YangXiangrui
+ * @date 2020/09/28 6:55:53
  */
 @Slf4j
 @RestController
