@@ -19,8 +19,8 @@ import me.zhengjie.domain.vo.EmailVo;
 import me.zhengjie.domain.EmailConfig;
 
 /**
- * @author Zheng Jie
- * @date 2018-12-26
+ * @author YangXiangrui
+ * @date 2020-09-11
  */
 public interface EmailService {
 
