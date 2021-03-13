@@ -1,7 +1,7 @@
 ##Xidian-admin
 参与学校信息化建设的 运维平台项目.
 
-预计开发时间 :2020.10-2021.10
+预计开发时间 :2020.10-2021.12
 
 此repo为后端部分
 
@@ -13,7 +13,7 @@
 指导老师: wm csj
 
 组长:yxr
+副组长:czr
+成员:wyn ljm whj cjz
 
-成员:czr wyn ljm whj cjz
-
-@copyright 2020 Xidian university
+@copyright 2020~2021 Xidian university
