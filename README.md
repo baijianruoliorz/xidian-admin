@@ -16,4 +16,36 @@
 副组长:czr
 成员:wyn ljm whj cjz
 
+
+update:2021.03.14:项目用过的参考文档
+开启druid-sql监控 :https://www.hangge.com/blog/cache/detail_2876.html
+
+
+
+xdu-admin项目解析:https://blog.csdn.net/qq_15230241/article/details/108767250
+
+
+
+Quantz解析:https://www.cnblogs.com/sanmuqingliang/p/11646370.html
+
+https://blog.csdn.net/bicheng4769/article/details/81097305?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.control&dist_request_id=785a12b9-cd62-4243-8e34-b88fbb5b3657&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.control
+
+
+
+关于代码生成器原理 :https://blog.csdn.net/qq_35067322/article/details/107241308
+
+FreeMaker:一个基于Java的模板引擎,最初专注于使用MVC软件架构生成动态网页.通常用于生成源代码配置文件和电子邮件.
+
+
+
+https://gitbook.cn/books/5d231b2331ef3511cfa93bd2/index.html
+
+
+
+
+
+golang面试超全面试题:https://segmentfault.com/a/1190000038922260
+
 @copyright 2020~2021 Xidian university
+
+
