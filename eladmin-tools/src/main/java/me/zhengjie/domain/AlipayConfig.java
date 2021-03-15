@@ -23,8 +23,8 @@ import java.io.Serializable;
 
 /**
  * 支付宝配置类
- * @author Zheng Jie
- * @date 2018-12-31
+ * @author Yang Xianggrui
+ * @date 2020-12-31
  */
 @Data
 @Entity
